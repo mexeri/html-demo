@@ -6,21 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <ul>
         <li>
-            <a href="/">Home</a>
+            <a href="/html-demo/index.html">Home</a>
         </li>
         <li>
-            <a href="/pages/products.html">Products</a>
+            <a href="pages/products.html">Products</a>
         </li>
         <li>
-            <a href="/pages/orders.html">Orders</a>
+            <a href="pages/orders.html">Orders</a>
         </li>
         <li>
-            <a href="/about.html">About</a>
+            <a href="about.html">About</a>
         </li>
     </ul>
     <h1>
@@ -38,8 +40,8 @@
             <li>Vegetarian</li>
             <li>Piedone</li>
         </ul>
-        <!╌ ordered list ╌>
-            <h2>Feltétek</h2>
+        <!╌ordered list╌>
+            <h2 class = "content">Feltétek</h2>
             <ol>
                 <li>Tomato</li>
                 <li>Pepper</li>
@@ -51,25 +53,44 @@
             </a>
             <a href="/pages/orders.html">Orders</a>
 
-            <a target="blank" href="https://www.tasteofhome.com/recipes/barbecued-burgers/">
-                <img width="56" src="/img/burger.jpg" alt="tasty buger">
-            </a>
+            <div class="img-div">
+                <a target="blank" href="https://www.tasteofhome.com/recipes/barbecued-burgers/">
+                    <img width="56" src="img/burger.jpg" alt="tasty buger">
+                </a>
+    
+                <img id="img-1" src="img/burger.jpg" alt="tasty buger">
+    
+            </div>
+            <div class="img-div light">
+                <a target="blank" href="https://www.tasteofhome.com/recipes/barbecued-burgers/">
+                    <img src="img/burger.jpg" alt="tasty buger">
+                </a>
+    
+                <img src="img/burger.jpg" alt="tasty buger">
+    
+            </div>
 
+            <p class ="content">
+                <span class = "bold">John Doe.</span> 
+                A programmer at google.
 
-
-
-
-            <p>
-                bekezdés
             </p>
-            <p>
+
+            <h3 id="elsoh3header">
                 Nagyon <em> fontos </em> <strong>szöveg</strong>.
+            </h3>
+            <p class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam euismod ex non turpis rhoncus, a vulputate magna interdum. Mauris in quam erat. In at consequat purus. Quisque interdum euismod metus in rhoncus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec fringilla accumsan lacus at accumsan. Nulla sed dapibus sem. Nullam porta, justo vitae pulvinar venenatis, leo nisl volutpat turpis
             </p>
-            <p>
+            <h3 id="masodikh3header">
                 Nagyon <i> fontos </i> <b>szöveg</b>.
-            </p>
+            </h3>
+            <p>
+                id finibus mi dui id lectus. Nam vel faucibus tellus. Integer viverra, felis a aliquet porttitor, ex ante volutpat ante, nec rhoncus ligula ante sit amet tellus. Integer pharetra metus ex, malesuada varius lacus dapibus quis. Vestibulum eu placerat massa. Quisque ac consequat nisi. Proin a gravida nisi. Pellentesque ligula lacus, pulvinar nec venenatis porta, interdum vel justo. Maecenas dignissim viverra tortor, sit amet elementum urna pulvinar eget. 
 
             </p>
+
+            
             <h2 id="content">Content</h2>
 
 </body>

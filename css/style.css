@@ -1,0 +1,69 @@
+h1{
+    color:blue;
+    font-family: 'Robo', sans-serif;
+    text-align: justify;
+}
+
+p{
+    color: grey;
+    font-size: 24px;
+    font-family: 'Kodchasan', sans-serif;
+    text-align: left;
+    text-transform: lowercase;
+    line-height: normal;
+    font-weight: lighter;
+    margin-top: 10px;
+    border: dashed 1px blue;
+    /*padding: 10px 0 0 0;*/
+}
+
+img{
+    width: 14%;
+    box-shadow: 3px 3px 20px green;
+    margin: 1%;
+}
+h3{
+    color:blue;
+    font-family: 'Robo', sans-serif;
+    text-align: justify;
+
+}
+#elsoh3header{
+    color:aqua;
+}
+
+.content{
+    color:blueviolet;
+    max-width: 75%;
+    min-height: 50%;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.img-div{
+    background-color: aqua;
+    
+}
+
+.light{
+    background-color: burlywood;
+    width: 50%;
+}
+
+#img-1{
+    display: inline-flex;
+    visibility: visible;
+    position: fixed;
+    right:10px;
+}
+
+
+html{
+    /*text-transform: lowercase;*/
+    background-color: #f0c0c0;
+    background-image: url(../img/a.jpg);
+    background-position: left center;
+    background-repeat: repeat-x;
+}
